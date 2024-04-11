@@ -17,13 +17,13 @@
             
               
             <h1>To Do List App First Brainstorm</h1>
-            <p><h2>Date:</h2> April 10, 2024<p>
+            <p><h2>Date:</h2> April 10, 2024</p>
             <p><h3>Members:</h3> Emily (Team Lead), Bob  (Developer), James (Developer), Camila(Designer)</p>
                 <nav>
                     <a href="#Agenda/">Agenda</a> <br>
-                    <a href="#Unfinished Business from the Last Meeting">Unfinished Business from the Last Meeting</a> <br>
-                    <a href="#New Business">New Business</a> <br>
-                    <a href="#Comments and questions">Comments and questions</a> <br>
+                    <a href="#UnfinishedBusinessfromtheLastMeeting">Unfinished Business from the Last Meeting</a> <br>
+                    <a href="#NewBusiness">New Business</a> <br>
+                    <a href="#Commentsandquestions">Comments and questions</a> <br>
                     <a href="#Diagrams">Diagrams</a> <br>
 
                   </nav>
@@ -38,21 +38,21 @@
                             <li> Questions?</li>
                         </ol>
             </section>
-            <section id = "Unfinished Business from the Last Meeting">
+            <section id = "UnfinishedBusinessfromtheLastMeeting">
                 <h3>Unfinished Business from the Last Meeting</h3>
                     <ul>
                         <li><div>The app design</div></li>
                         <li><span>Structuring the development <b>timeline</b></span></li>
                     </ul>
             </section>
-            <section id = "New Business">
+            <section id = "NewBusiness">
                 <h3>New Business</h3>
                     <ul>
                         <li>Thinking about incorporating Artificial Intelligence in the App</li>
                         <li>Scheduling next week call</li>
                     </ul>
             </section>
-            <section id = "Comments and questions">
+            <section id = "Commentsandquestions">
                 <h3>Comments and questions</h3>
                     <ul>
                         <li>Developers need more time to prepare the prototype of the product</li>
@@ -75,7 +75,7 @@
                     
                     <p>A little <i>lo-fi</i> audio for all of us to destress</p>
                     <audio controls>
-                        <source src="screenshots/New Recording 3.m4a" type="audio/ogg">
+                        <source src="screenshots/NewRecording3.m4a" type="audio/ogg">
                         <source src="horse.mp3" type="audio/mpeg">
                     </audio>
                     </details>
@@ -87,18 +87,17 @@
     <footer>
         <form>
             <fieldset>
-                <br>
-                <legend>Did you like our website?</legend>
+                <p>Did you like our website?</p>
     
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="user_name">
                 
                 <p>Your Age:</p>
-                <input type="radio" id="under 18" name="age" value="under 18">
-                <label for="under 18">Under 18</label>
+                <input type="radio" id="under18" name="age" value="under18">
+                <label for="under18">Under 18</label>
                 
-                <input type="radio" id="Over 18" name="age" value="over 18">
-                <label for="over 18">Over 18</label>
+                <input type="radio" id="over18" name="age" value="over18">
+                <label for="over18">Over 18</label>
                 
                 <p>What did you learn:</p>
                 <input type="checkbox" id="service1" name="service1" value="To Do List">
@@ -110,15 +109,16 @@
                 <label for="feedback">Your Feedback:</label>
                 <textarea id="feedback" name="user_feedback"></textarea>
                 <br>
-                <label for="rating">Your Rating:</label>
-                <input list="ratings" id="rating" name="user_rating">
-                <datalist id="Your level of productivity">
-                    <option value="Excellent">
-                    <option value="Good">
-                    <option value="Average">
-                    <option value="Poor">
-                    <option value="Terrible">
-                </datalist>
+                <label for="user_rating">Your Level of Productivity:</label>
+                <input list="ratings" id="user_rating" name="user_rating">
+                    <datalist id="ratings">
+                        <option value="Excellent">
+                        <option value="Good">
+                        <option value="Average">
+                        <option value="Poor">
+                        <option value="Terrible">
+                    </datalist>
+
                 
                 <label for="use">Would you use our app?</label>
                 <select id="use" name="user_woulduse">
