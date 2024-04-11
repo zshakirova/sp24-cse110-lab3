@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do List App First Brainstorm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/screenshots/favicon.ico?">
+    <link rel="manifest" href="/screenshots/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+    <main>
+        <header>
+            
+              
+            <h1>To Do List App First Brainstorm</h1>
+            <p><h2>Date:</h2> April 10, 2024<p>
+            <p><h3>Members:</h3> Emily (Team Lead), Bob  (Developer), James (Developer), Camila(Designer)</p>
+                <nav>
+                    <a href="#Agenda/">Agenda</a> <br>
+                    <a href="#Unfinished Business from the Last Meeting">Unfinished Business from the Last Meeting</a> <br>
+                    <a href="#New Business">New Business</a> <br>
+                    <a href="#Comments and questions">Comments and questions</a> <br>
+                    <a href="#Diagrams">Diagrams</a> <br>
+
+                  </nav>
+            <hr>
+            <section id = "Agenda"> 
+                <h3>Agenda</h3>
+                        <ol>
+                            <li>Recap of the work that was done last week</li>
+                            <li>Making the list of what was done well and what can be <strong>improved</strong></li> 
+                            <li> Brainstorming session for new To Do List App <i>features</i></li>
+                            <li> Divide tasks and responsibilities for this week </li>
+                            <li> Questions?</li>
+                        </ol>
+            </section>
+            <section id = "Unfinished Business from the Last Meeting">
+                <h3>Unfinished Business from the Last Meeting</h3>
+                    <ul>
+                        <li><div>The app design</div></li>
+                        <li><span>Structuring the development <b>timeline</b></span></li>
+                    </ul>
+            </section>
+            <section id = "New Business">
+                <h3>New Business</h3>
+                    <ul>
+                        <li>Thinking about incorporating Artificial Intelligence in the App</li>
+                        <li>Scheduling next week call</li>
+                    </ul>
+            </section>
+            <section id = "Comments and questions">
+                <h3>Comments and questions</h3>
+                    <ul>
+                        <li>Developers need more time to prepare the prototype of the product</li>
+                        <li>We need to think about future <em>marketing strategy</em></li>
+                    </ul>
+            </section>
+
+            <section id ="Diagrams">
+                <h3>Diagrams</h3>
+                <details>
+                    <summary>The diagrams, video and audio files! <b>OPEN THE ARROW </b></summary>
+                    <img src="screenshots/diagram.jpeg" alt="Workplace Procrastination Statistics">
+                    <p>We see a diagram showing the percentage of people who <b>procrastinate</b>. We can use it in our marketing strategy</p>
+                    <br>
+                    <p>This is the video about time management. We can also add this to the strategy! </p>
+                    <video width="320" height="240" controls>
+                        <source src="screenshots/IMG_2656.mov" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    </video>
+                    
+                    <p>A little <i>lo-fi</i> audio for all of us to destress</p>
+                    <audio controls>
+                        <source src="screenshots/New Recording 3.m4a" type="audio/ogg">
+                        <source src="horse.mp3" type="audio/mpeg">
+                    </audio>
+                    </details>
+            </section>
+            <br>
+        </header>
+
+    </main>
+    <footer>
+        <form>
+            <fieldset>
+                <br>
+                <legend>Did you like our website?</legend>
+    
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="user_name">
+                
+                <p>Your Age:</p>
+                <input type="radio" id="under 18" name="age" value="under 18">
+                <label for="under 18">Under 18</label>
+                
+                <input type="radio" id="Over 18" name="age" value="over 18">
+                <label for="over 18">Over 18</label>
+                
+                <p>What did you learn:</p>
+                <input type="checkbox" id="service1" name="service1" value="To Do List">
+                <label for="service1">To Do List</label>
+                
+                <input type="checkbox" id="service2" name="service2" value="Time Management">
+                <label for="service2">Time Management</label>
+                <br>
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="user_feedback"></textarea>
+                <br>
+                <label for="rating">Your Rating:</label>
+                <input list="ratings" id="rating" name="user_rating">
+                <datalist id="Your level of productivity">
+                    <option value="Excellent">
+                    <option value="Good">
+                    <option value="Average">
+                    <option value="Poor">
+                    <option value="Terrible">
+                </datalist>
+                
+                <label for="use">Would you use our app?</label>
+                <select id="use" name="user_woulduse">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <button type="submit">Submit Feedback</button>
+            </fieldset>
+        </form>
+
+    </footer>
+  </body>
+</html>
