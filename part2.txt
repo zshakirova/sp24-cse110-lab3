@@ -12,3 +12,4 @@ question11 content="a11yComesFirst"
 question2="iHateCplusplus"
 Question 8 passcode: coolcoolcool 
    
+is question 10 an image? why the icon not working 
