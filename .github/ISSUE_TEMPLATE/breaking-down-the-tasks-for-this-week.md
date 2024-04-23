@@ -2,7 +2,7 @@
 name: Breaking down the tasks for this week
 about: We need to analyze and breakdown tasks for this week
 title: ''
-labels: bug, not urgent, problem, question
+labels: urgent
 assignees: zshakirova
 
 ---
