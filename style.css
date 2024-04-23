@@ -1,11 +1,12 @@
 /* This is Stylesheet for the Meeting Minutes Webpage */
 
+
+:root {
+    --primary-bg-color: #f4f4f4; 
+}
 * {
     margin: 500;
     padding: 500;
-}
-:root {
-    --primary-bg-color: #f4f4f4; 
 }
 main {
     display: grid;
