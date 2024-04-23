@@ -1,10 +1,11 @@
 ---
-name: Assigning roles
-about: The purpose of this issue is to understand roles in the team
+name: Different CSS usage
+about: The purpose of this issue is to include External CSS stylesheet, Inline, Internal
 title: ''
 labels: question
 assignees: zshakirova
 
 ---
-
-Roles are very important part of the team because this way we can divide responsibility and tasks
+External CSS stylesheet (preferred method for better code readability)
+Inline CSS (helpful for debugging)
+Internal CSS with <style> (convenient for quick experiments)
